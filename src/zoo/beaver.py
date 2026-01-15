@@ -13,3 +13,9 @@ class Elephant(Animal):
 
     def action(self):
         return "No comment..."
+    
+    def test_sound(self):
+        assert self.sound == "I love Hamilton!"
+
+    def test_action(self):
+        assert self.action == "No comment..."
