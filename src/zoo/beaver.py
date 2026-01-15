@@ -1,5 +1,5 @@
 
-# elephant.py
+# beaver.py
 
 from .animal import Animal
 
