@@ -12,4 +12,4 @@ class Elephant(Animal):
         return "I love Hamilton!"
 
     def action(self):
-        return "meow!!!"
+        return "No comment..."
