@@ -4,7 +4,7 @@
 from .animal import Animal
 
 
-class Elephant(Animal):
+class Beaver(Animal):
     def __init__(self, name="Meng"):
         super().__init__(name, species="Beaver")
 
@@ -14,8 +14,10 @@ class Elephant(Animal):
     def action(self):
         return "No comment..."
     
-    def test_sound(self):
-        assert self.sound == "I love Hamilton!"
+Meng = Beaver(name="Meng")
+    
+def test_sound():
+    assert Meng.sound() == "I love Hamilton!"
 
-    def test_action(self):
-        assert self.action == "No comment..."
+def test_action():
+    assert Meng.action() == "No comment..."
